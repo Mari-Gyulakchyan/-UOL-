@@ -337,3 +337,76 @@ footer {
         order: 3;
     }
 }
+@media (max-width: 600px) {
+    .main-container {
+        flex-direction: column;
+        padding: 10px 5px;
+        gap: 10px;
+    }
+    .left-column,
+    .center-column,
+    .right-column {
+        min-width: 100%;
+        max-width: 100%;
+        flex: 1 1 100%;
+        padding: 0;
+    }
+    .center-column {
+        padding: 15px 5px;
+    }
+    .article-title {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+    .article-text {
+        font-size: 16px;
+        padding: 0;
+    }
+    .article-text p {
+        font-size: 16px;
+        padding: 0;
+    }
+    .article-image-container {
+        width: 100%;
+        float: none;
+        margin: 0 0 10px 0;
+        align-items: center;
+    }
+    .article-image {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .header-container {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 5px;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    nav {
+        gap: 10px;
+        font-size: 13px;
+        flex-wrap: wrap;
+    }
+    .logo img {
+        height: 32px;
+    }
+    .logo span {
+        font-size: 16px;
+    }
+    .registration {
+        padding: 10px;
+    }
+    .registration h2 {
+        font-size: 16px;
+    }
+    .registration input,
+    .registration button {
+        font-size: 13px;
+        padding: 8px;
+    }
+    footer {
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+}
